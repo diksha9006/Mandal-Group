@@ -169,7 +169,7 @@ const App = () => {
       
       {/* AUTH MODAL - FIXED Z-INDEX & BLUR */}
       {isAuthModalOpen && (
-        <div className="fixed inset-0 z-[99999] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+        <div className="fixed inset-0 z-99999 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
           <div className="bg-white rounded-3xl p-10 w-full max-w-sm shadow-2xl scale-in-center">
             <h3 className="text-xl font-black text-[#4e342e] mb-6 text-center">Admin Access</h3>
             <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="w-full px-6 py-4 bg-slate-50 border-2 border-slate-100 rounded-2xl mb-6 text-center text-xl tracking-widest outline-none focus:border-[#8d6e63]" placeholder="••••" />
@@ -188,7 +188,7 @@ const App = () => {
           <div className="w-20 h-20 bg-white/10 backdrop-blur-2xl border border-white/20 rounded-[28px] flex items-center justify-center text-4xl font-black shadow-inner">M</div>
           <div>
             <h1 className="text-3xl lg:text-5xl font-black tracking-tight mb-1">Daily Manpower Report</h1>
-            <p className="text-sm font-black tracking-[0.4em] text-amber-200/80 uppercase">Mandal Cloud ERP</p>
+            <p className="text-sm font-black tracking-[0.4em] text-amber-200/80 uppercase">Mandal Group </p>
           </div>
         </div>
         <div className="relative z-10 mt-8 md:mt-0 flex flex-col items-end gap-4">
@@ -265,7 +265,7 @@ const App = () => {
 
       {/* ADMIN AUTH MODAL */}
       {isAuthModalOpen && (
-        <div className="fixed inset-0 z-[99999] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+        <div className="fixed inset-0 z-99999 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
           <div className="bg-white rounded-3xl p-10 w-full max-w-sm shadow-2xl scale-in-center">
             <h3 className="text-xl font-black text-[#4e342e] mb-6 text-center">Admin Access</h3>
             <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="w-full px-6 py-4 bg-slate-50 border-2 border-slate-100 rounded-2xl mb-6 text-center text-xl tracking-widest outline-none focus:border-[#8d6e63]" placeholder="••••" />
@@ -279,7 +279,7 @@ const App = () => {
 
       {/* ADD SECTION MODAL */}
       {isAddSectionModalOpen && (
-        <div className="fixed inset-0 z-[99999] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+        <div className="fixed inset-0 z-99999 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
           <div className="bg-white rounded-[40px] p-10 w-full max-w-lg shadow-2xl border border-white/20 scale-in-center">
              <div className="flex justify-between items-center mb-6">
                 <h3 className="text-2xl font-black text-[#4e342e]">Create New Section</h3>
