@@ -172,7 +172,7 @@ const App = () => {
       
       {/* AUTH MODAL - FIXED Z-INDEX & PERSISTENCE FIX */}
       {isAuthModalOpen && (
-        <div className="fixed inset-0 z-[99999] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+        <div className="fixed inset-0 z-99999 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
           <div className="bg-white rounded-3xl p-10 w-full max-w-sm shadow-2xl scale-in-center">
             <h3 className="text-xl font-black text-[#4e342e] mb-6 text-center">Admin Access</h3>
             <input 
@@ -193,7 +193,7 @@ const App = () => {
 
       {/* ADD SECTION MODAL - FIXED Z-INDEX */}
       {isAddSectionModalOpen && (
-        <div className="fixed inset-0 z-[99999] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+        <div className="fixed inset-0 z-99999 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
           <div className="bg-white rounded-[40px] p-10 w-full max-w-lg shadow-2xl border border-white/20 scale-in-center">
              <div className="flex justify-between items-center mb-6"><h3 className="text-2xl font-black text-[#4e342e]">Create New Section</h3><button onClick={() => setIsAddSectionModalOpen(false)} className="p-2 hover:bg-slate-100 rounded-full"><X size={24} /></button></div>
              <div className="space-y-4">
@@ -211,7 +211,7 @@ const App = () => {
         <div className="absolute inset-0 bg-white/5 backdrop-blur-[2px]"></div>
         <div className="relative z-10 flex items-center gap-8">
           <div className="w-20 h-20 bg-white/10 backdrop-blur-2xl border border-white/20 rounded-[28px] flex items-center justify-center text-4xl font-black shadow-inner">M</div>
-          <div><h1 className="text-3xl lg:text-5xl font-black tracking-tight mb-1">Daily Manpower Report</h1><p className="text-sm font-black tracking-[0.4em] text-amber-200/80 uppercase">Mandal Cloud ERP</p></div>
+          <div><h1 className="text-3xl lg:text-5xl font-black tracking-tight mb-1">Daily Manpower Report</h1><p className="text-sm font-black tracking-[0.4em] text-amber-200/80 uppercase">Mandal Group</p></div>
         </div>
         <div className="relative z-10 flex flex-col items-end gap-4">
           <div className="bg-white/10 backdrop-blur-xl p-5 rounded-3xl border border-white/10 flex flex-col items-end shadow-xl min-w-75">
